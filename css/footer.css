@@ -1,0 +1,48 @@
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+div.footer2 {
+    position: absolute;
+    width: -webkit-fill-available;
+    bottom: 0;
+    background-color: #5a0f77;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+}
+
+div.footer {
+    background-color: #861faf;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+p#texto-footer2 {
+    text-align: center;
+    align-content: end;
+    margin: 0;
+    padding: 2px;
+}
+
+div.col {
+    flex-basis: 0;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+    margin-right: 120px;
+    margin-top: 67px;
+}
+
+div.col-sm {
+    margin-top: 25px;
+}
+
+p, li, ul {
+    color: white;
+    font-family: cursive;
+    font-size: 14px;
+}
