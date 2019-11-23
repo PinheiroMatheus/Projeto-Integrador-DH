@@ -6,15 +6,22 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-         <!-- incluir header -->
+        <?php include_once("inc/header.php"); ?>
     </header>
-        <main>
-           <div class = row  >
+    <div class="banner">
+                <center>
+                <h1 class="py-4">Finalize o pagamento</h1>
+                </center>
+            </div>
+        <main class="container py-5">
+           
+           <div class = "row"  >
                <!-- desc dos produtos  -->
-                <div class="col-md-4 order-md-2 mb-4">
+                <div class="col-md-4 order-md-2 mb-4 promo-code">
                     <h4 class="d-flex justify-content-between align-items-center mb-3">
                         <span class="text-muted">Your cart</span>
                         <span class="badge badge-secondary badge-pill">3</span>
@@ -40,7 +47,7 @@
                     </form>
                 </div>
                 <!-- dados cadastrais -->
-                <div class="col-md-8 order-md-1">
+                <div class="col-md-7 order-md-1 info-checkout">
                     <h4 class="mb-3">Billing address</h4>
                     <form class="needs-validation" novalidate>
                         <div class="row">

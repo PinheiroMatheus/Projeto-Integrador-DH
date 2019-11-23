@@ -1,3 +1,11 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
 footer {
     background-color: #861faf;
     margin: 0;
@@ -15,6 +23,30 @@ a {
 }
 
 p, li, ul, a {
-    font-family: cursive;
+    /* font-family: cursive; */
     font-size: 14px;
+}
+
+.banner {
+    background-color: #461B79;
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+.info-checkout {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: -90px;
+}
+
+.promo-code {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: -90px;
+    margin-left: 15px;
+
 }
