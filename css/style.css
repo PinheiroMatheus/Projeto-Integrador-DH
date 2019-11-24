@@ -1,7 +1,6 @@
 /* FOOTER */
 footer {
     color: white;
-
 }
 
 ul {
@@ -15,6 +14,7 @@ h5 {
 
 #row1 {
     background-color: #861faf;
+    position: relative;
 }
 
 #row2 {
