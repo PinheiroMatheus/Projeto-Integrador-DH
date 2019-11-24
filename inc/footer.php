@@ -1,37 +1,42 @@
-<footer class="container-fluid fixed-bottom">
-    <section class="row p-3">
-        <article class="col-3">
-            <h3 class="text-center my-auto">BeyMind</h3>
-        </article>
-        <article class="col-3">
-            <h5>Sobre a gente</h5>
-            <ul>
-                <li><a href="">Quem somos</a></li>
-                <li><a href="">História</a></li>
-                <li><a href="">Sobre nós</a></li>
-                <li><a href="">Da gente</a></li>
-            </ul>
-        </article>
-        <article class="col-3">
-            <h5>Sobre a gente</h5>
-            <ul>
-                <li><a href="">Quem somos</a></li>
-                <li><a href="">História</a></li>
-                <li><a href="">Sobre nós</a></li>
-                <li><a href="">Da gente</a></li>
-            </ul>
-        </article>
-        <article class="col-3">
-            <h5>Sobre a gente</h5>
-            <ul>
-                <li><a href="">Quem somos</a></li>
-                <li><a href="">História</a></li>
-                <li><a href="">Sobre nós</a></li>
-                <li><a href="">Da gente</a></li>
-            </ul>
-        </article>
-    </section>        
-    <section class="footer2 row py-3">
-        <p id="texto-footer2" class="col-12 text-center m-0">Copywriting 2019 - Todos os direitos reservados</p>
-    </section>
+<footer>
+    <div class="container-fluid fixed-bottom" id="row1">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 pt-2">
+                    <h3 class="text-center my-auto">BeyMind</h3>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 pt-2">
+                    <h5><b>Sobre a gente</b></h5>
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">História</a></li>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Da gente</a></li>
+                    </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 pt-2">
+                    <h5><b>Sobre a gente</b></h5>
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">História</a></li>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Da gente</a></li>
+                    </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 pt-2">
+                    <h5><b>Sobre a gente</b></h5>
+                    <ul>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">História</a></li>
+                        <li><a href="#">Sobre nós</a></li>
+                        <li><a href="#">Da gente</a></li>
+                    </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="container-fluid text-center" id="row2">
+                <span class="pb-2">Copywriting 2019 - Todos os direitos reservados</span>
+            </div>
+        </div>
+    </div>
 </footer>
+</html>

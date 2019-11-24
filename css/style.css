@@ -1,3 +1,35 @@
+/* FOOTER */
+footer {
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+h5 {
+    white-space: nowrap;
+}
+
+#row1 {
+    background-color: #861faf;
+}
+
+#row2 {
+    background-color: #61197e;
+}
+
+a { 
+    color: inherit;
+}
+
+a:visited {
+     color: white;
+}
+/* FOOTER */
+
 * {
     font-family: sans-serif;
 }
@@ -6,21 +38,6 @@ body {
     background-color: #f7f7f7;
 }
 
-footer {
-    background-color: #861faf;
-    margin: 0;
-    padding: 0;
-    color: #fff;
-}
-
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
 
 p, li, ul, a {
     /* font-family: cursive; */
