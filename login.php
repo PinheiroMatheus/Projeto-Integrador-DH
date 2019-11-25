@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <?php include_once("inc/header.php"); ?>
+    </header>
+        <div class="container text-center pt-5 pb-5">
+            <h2>Logo</h2>
+        </div class="container" id="test">
+        <div class="container">
+            <form>
+                <div class="form-group">
+                  <label for="exampleInputEmail1"></label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputPassword1"></label>
+                  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha">
+                </div>
+                <div>
+                    <a href="#">Esqueci minha senha</a>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block mt-3">Entrar</button>
+              </form>
+        </div>
+        <div class="container text-center pt-4 pb-2 mb-3">
+            <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+        </div>
+        <footer>
+            <?php include_once("inc/footer.php"); ?>
+        </footer>
+</body>
+</html>

@@ -29,6 +29,12 @@ a:visited {
      color: white;
 }
 /* FOOTER */
+/* LOGIN */
+.container {
+    max-width: 500px;
+    background-color: white;
+}
+/* LOGIN */
 
 * {
     font-family: sans-serif;
