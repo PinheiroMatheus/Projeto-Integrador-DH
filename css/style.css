@@ -34,6 +34,11 @@ body#login {
     background-color: #461b79;
 }
 
+#cont-login1, #cont-login2, #cont-login3, #btn-login1{
+    max-width: 500px;
+    background-color: white;
+}
+
 #cont-login3 {
     border-radius: 0 0 15px 15px;
 }
