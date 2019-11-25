@@ -9,16 +9,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
 </head>
-<body>
-    <header>
-        <?php include_once("inc/header.php"); ?>
-    </header>
-        <div class="container text-center pt-5 pb-5">
+<body id="login">
+        <div class="container text-center pt-5 pb-5 mt-5" id="cont-login1">
             <h2>Logo</h2>
         </div class="container" id="test">
-        <div class="container">
+        <div class="container" id="cont-login2">
             <form>
-                <div class="form-group">
+                <div class="form-group pt-5">
                   <label for="exampleInputEmail1"></label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
                 </div>
@@ -26,17 +23,17 @@
                   <label for="exampleInputPassword1"></label>
                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha">
                 </div>
-                <div>
+                <div class="pt-2 pb-2">
                     <a href="#">Esqueci minha senha</a>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block mt-3">Entrar</button>
               </form>
         </div>
-        <div class="container text-center pt-4 pb-2 mb-3">
+        <div class="container text-center pt-4 pb-3" id="cont-login3">
             <p>Não tem uma conta? <a href="#">Registre-se</a></p>
         </div>
-        <footer>
-            <?php include_once("inc/footer.php"); ?>
-        </footer>
+        <div class="container pt-2 pb-4 mt-5 mb-5" id="btn-login1">
+            <span><button type="submit" class="btn btn-primary btn-block mt-3">Voltar ao Menu</button></span>
+        </div>
 </body>
 </html>

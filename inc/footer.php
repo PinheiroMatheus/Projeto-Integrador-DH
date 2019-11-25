@@ -5,30 +5,30 @@
                     <h3 class="text-center my-auto">BeyMind</h3>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 pt-2">
-                    <h5><b>Sobre a gente</b></h5>
-                    <ul>
-                        <li><a href="#">Quem somos</a></li>
-                        <li><a href="#">História</a></li>
-                        <li><a href="#">Sobre nós</a></li>
-                        <li><a href="#">Da gente</a></li>
+                    <h5 id="h5-footer"><b>Sobre a gente</b></h5>
+                    <ul id="ul-footer">
+                        <li><a href="#" id="a-footer">Quem somos</a></li>
+                        <li><a href="#" id="a-footer">História</a></li>
+                        <li><a href="#" id="a-footer">Sobre nós</a></li>
+                        <li><a href="#" id="a-footer">Da gente</a></li>
                     </ul>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 pt-2">
-                    <h5><b>Sobre a gente</b></h5>
-                    <ul>
-                        <li><a href="#">Quem somos</a></li>
-                        <li><a href="#">História</a></li>
-                        <li><a href="#">Sobre nós</a></li>
-                        <li><a href="#">Da gente</a></li>
+                    <h5 id="h5-footer"><b>Sobre a gente</b></h5>
+                    <ul id="ul-footer">
+                        <li><a href="#" id="a-footer">Quem somos</a></li>
+                        <li><a href="#" id="a-footer">História</a></li>
+                        <li><a href="#" id="a-footer">Sobre nós</a></li>
+                        <li><a href="#" id="a-footer">Da gente</a></li>
                     </ul>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 pt-2">
-                    <h5><b>Sobre a gente</b></h5>
-                    <ul>
-                        <li><a href="#">Quem somos</a></li>
-                        <li><a href="#">História</a></li>
-                        <li><a href="#">Sobre nós</a></li>
-                        <li><a href="#">Da gente</a></li>
+                    <h5 id="h5-footer"><b>Sobre a gente</b></h5>
+                    <ul id="ul-footer">
+                        <li><a href="#" id="a-footer">Quem somos</a></li>
+                        <li><a href="#" id="a-footer">História</a></li>
+                        <li><a href="#" id="a-footer">Sobre nós</a></li>
+                        <li><a href="#" id="a-footer">Da gente</a></li>
                     </ul>
             </div>
         </div>

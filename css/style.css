@@ -3,12 +3,12 @@ footer {
     color: white;
 }
 
-ul {
+#ul-footer {
     list-style: none;
     padding: 0;
 }
 
-h5 {
+#h5-footer {
     white-space: nowrap;
 }
 
@@ -21,20 +21,37 @@ h5 {
     background-color: #61197e;
 }
 
-a { 
+#a-footer { 
     color: inherit;
 }
 
-a:visited {
+#a-footer:visited {
      color: white;
 }
 /* FOOTER */
 /* LOGIN */
+body#login {
+    background-color: #461b79;
+}
+
 .container {
     max-width: 500px;
     background-color: white;
 }
-/* LOGIN */
+
+#cont-login3 {
+    border-radius: 0 0 15px 15px;
+}
+
+#cont-login1 {
+    border-radius: 15px 15px 0 0;
+}
+
+#btn-login1 {
+    border-radius: 15px;
+}
+
+/* /LOGIN */
 
 * {
     font-family: sans-serif;
