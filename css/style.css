@@ -34,11 +34,6 @@ body#login {
     background-color: #461b79;
 }
 
-.container {
-    max-width: 500px;
-    background-color: white;
-}
-
 #cont-login3 {
     border-radius: 0 0 15px 15px;
 }
