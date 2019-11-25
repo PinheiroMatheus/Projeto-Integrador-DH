@@ -52,7 +52,23 @@ body#login {
 }
 
 /* /LOGIN */
+/* CADASTRO */
+#body-cadastro {
+    background-color: #461b79;
+}
 
+#cont-cadastro1 {
+    background-color: white;
+    max-width: 500px;
+    border-radius: 15px;
+}
+
+#cont-cadastro2 {
+    background-color: white;
+    max-width: 500px;
+    border-radius: 15px;
+}
+/* /CADASTRO */
 * {
     font-family: sans-serif;
 }

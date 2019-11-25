@@ -10,30 +10,30 @@
     <title>Login</title>
 </head>
 <body id="login">
-        <div class="container text-center pt-5 pb-5 mt-5" id="cont-login1">
+        <div class="container text-center pt-5 pb-5 mt-5 px-4" id="cont-login1">
             <h2>Logo</h2>
         </div class="container" id="test">
         <div class="container" id="cont-login2">
             <form>
-                <div class="form-group pt-5">
+                <div class="form-group pt-5 px-4">
                   <label for="exampleInputEmail1"></label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu email">
                 </div>
-                <div class="form-group">
+                <div class="form-group px-4">
                   <label for="exampleInputPassword1"></label>
                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha">
                 </div>
-                <div class="pt-2 pb-2">
+                <div class="pt-2 pb-2 px-4">
                     <a href="#">Esqueci minha senha</a>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block mt-3">Entrar</button>
+                <button type="submit" class="btn btn-primary px-4 btn-block mt-3">Entrar</button>
               </form>
         </div>
-        <div class="container text-center pt-4 pb-3" id="cont-login3">
-            <p>Não tem uma conta? <a href="#">Registre-se</a></p>
+        <div class="container text-center pt-4 px-4 pb-3" id="cont-login3">
+            <p>Não tem uma conta? <a href="cadastro.php">Registre-se</a></p>
         </div>
-        <div class="container pt-2 pb-4 mt-5 mb-5" id="btn-login1">
-            <span><button type="submit" class="btn btn-primary btn-block mt-3">Voltar ao Menu</button></span>
+        <div class="container pt-2 pb-4 px-4 mt-5 mb-5" id="btn-login1">
+            <span><button type="submit" class="btn px-4 btn-primary btn-block mt-3">Voltar ao Menu</button></span>
         </div>
 </body>
 </html>
