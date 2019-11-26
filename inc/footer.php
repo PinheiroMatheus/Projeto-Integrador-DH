@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="container-fluid text-center" id="row2">
+            <div class="container-fluid text-center py-4" id="row2">
                 <span class="pb-2">Copywriting 2019 - Todos os direitos reservados</span>
             </div>
         </div>
