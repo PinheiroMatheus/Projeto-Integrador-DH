@@ -13,12 +13,16 @@
         <header>
         <?php include_once("inc/header.php"); ?>
         </header>
-        <main>
-            <p>MAIN</p>
-        </main>
-        <aside>
-            <p>ASIDE</p>
-        </aside>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-md-block w-100" src="assets/img/carousel.jpg" alt="Primeiro Slide">
+                </div>
+            </div>
+        </div>
+
+    </body>
         <footer>
             <?php include_once("inc/footer.php"); ?>
         </footer>
