@@ -28,7 +28,7 @@
         <button type="button" class="btn btn-primary btn-md btn-block mt-4">Login</button>
         <button type="button" class="btn btn-primary btn-md btn-block mt-3 mb-5">Voltar ao Menu</button>
         <div class="text-center my-5" id="div-span">
-            <span>Não lembra sua senha? Tente <a href="http://localhost/BeyMind/cadastro.php" id="div-span">Cadastrar-se</a></span><br>
+            <span>Ainda não tem cadastro? Tente <a href="http://localhost/BeyMind/cadastro.php" id="div-span">Cadastrar-se</a></span><br>
             <span>Esqueceu sua senha? <a href="" id="div-span">Clique aqui</a></span>
         </div>
     </div>
