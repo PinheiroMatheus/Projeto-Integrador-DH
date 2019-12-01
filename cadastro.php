@@ -3,7 +3,7 @@
         <?php require_once("inc/head.php") ?> 
         <?php $title = "Cadastro"; ?>
 <body id="body-cadastro">
-    <div class="container px-5" id="div-master">
+    <div class="container px-5" id="div-master-cadastro">
         <div class="text-center my-5 pt-5" id="div-img">
             <img  class="" src="" alt="Logo">
         </div>
@@ -22,7 +22,7 @@
               </div>
             </div>
             <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
+                <label for="exampleInputEmail1">Email</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
             </div>
             <div class="form-group pt-3">

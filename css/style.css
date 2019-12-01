@@ -29,35 +29,30 @@ footer {
      color: white;
 }
 /* FOOTER */
-/* LOGIN */
-body#login {
+/* /LOGIN */
+#body-login2 {
     background-color: #461b79;
 }
 
-#cont-login1, #cont-login2, #cont-login3, #btn-login1{
-    max-width: 500px;
+#div-master-login {
+    border: 2px solid black;
     background-color: white;
-}
-
-#cont-login3 {
-    border-radius: 0 0 15px 15px;
-}
-
-#cont-login1 {
-    border-radius: 15px 15px 0 0;
-}
-
-#btn-login1 {
+    max-width: 600px;
+    min-width: 360px;
     border-radius: 15px;
+    width: 100%;
 }
 
+#div-titulo-login {
+    white-space: nowrap;
+}
 /* /LOGIN */
 /* CADASTRO */
 #body-cadastro {
     background-color: #461b79;
 }
 
-#div-master {
+#div-master-cadastro {
     border: 2px solid black;
     background-color: white;
     max-width: 600px;
