@@ -57,17 +57,22 @@ body#login {
     background-color: #461b79;
 }
 
-#cont-cadastro1 {
+#div-master {
+    border: 2px solid black;
     background-color: white;
-    max-width: 500px;
+    max-width: 600px;
+    min-width: 360px;
     border-radius: 15px;
 }
 
-#cont-cadastro2 {
-    background-color: white;
-    max-width: 500px;
-    border-radius: 15px;
+#div-titulo {
+    white-space: nowrap;
 }
+
+#div-span {
+    font-size: 13px; 
+}
+
 /* /CADASTRO */
 * {
     font-family: sans-serif;

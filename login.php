@@ -6,9 +6,6 @@
         <?php $title = "Login"; ?>
 
 <body id="login">
-        <!-- <div class="container text-center pt-5 pb-5 mt-5 px-4" id="cont-login1">
-            <img src="" alt="image.php" id="image">
-        </div class="container" id="test"> -->
         <div class="media container pt-5 center-text pb-5 mt-5 px-4" id="cont-login1">
             <img src="..." alt="..." class="img-thumbnail rounded mx-auto d-block" id="img1">
         </div>

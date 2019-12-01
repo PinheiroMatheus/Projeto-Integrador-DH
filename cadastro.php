@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
         <?php require_once("inc/head.php") ?> 
-
         <?php $title = "Cadastro"; ?>
-
 <body id="body-cadastro">
-    <div class="container pt-4 mt-5 pb-2" id="cont-cadastro1">
-        <div class="text-center">
-            <h2><b>CADASTRO</b></h2>
+    <div class="container px-5" id="div-master">
+        <div class="text-center my-5 pt-5" id="div-img">
+            <img  class="" src="" alt="Logo">
         </div>
-    </div>
-    <div class="container pt-5 mt-1 pb-2 mb-5" id="cont-cadastro2">
-        <form class="px-4">
-            <div class="form-group mt-3">
-              <label for="exemploEmail">Email</label>
-              <input type="email" class="form-control" id="exemploEmail" aria-describedby="emailHelp" placeholder="Digite seu Email">
+        <div class="container text-center" id="div-titulo">
+            <h1><b>Cadastre-se</b></h1>
+        </div>
+        <form>
+            <div class="row mt-5">
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 pb-4">
+              <label for="exampleInputEmail1">Nome</label>
+                <input type="text" class="form-control" placeholder="">
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 pb-4">
+              <label for="exampleInputEmail1">Sobrenome</label>
+                <input type="text" class="form-control" placeholder="">
+              </div>
             </div>
             <div class="form-group">
-                <label for="exemploEmail">Confirmar Email</label>
-                <input type="email" class="form-control" id="exemploEmail" aria-describedby="emailHelp" placeholder="Confirme seu Email">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
             </div>
-            <div class="form-group">
-              <label for="exemploSenha">Senha</label>
-              <input type="password" class="form-control" id="exemploSenha" placeholder="Digite sua senha">
-              <small id="pass-help" class="form-text text-muted">Sua senha deve conter no mínimo 6 caracteres</small>
+            <div class="form-group pt-3">
+                <label for="exampleInputPassword1">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
             </div>
-            <div class="form-group">
-                <label for="exemploSenha">Confirmar Senha</label>
-                <input type="password" class="form-control" id="exemploSenha" placeholder="Confirme sua senha">
-            </div>
-            <div class="form-group">
-                <label for="exemploEmail">Nome da Empresa</label>
-                <input type="text" class="form-control mb-5" id="exemploEmail" aria-describedby="emailHelp" placeholder="Diga-nos o nome da sua Empresa">
-            </div>            
-            <button type="submit" class="btn btn-primary btn-block mt-2 mb-3">Cadastrar</button>
-            <button type="submit" class="btn btn-primary btn-block mt-2 mb-3">Voltar</button>
-          </form>   
+        </form>
+        <button type="button" class="btn btn-primary btn-md btn-block mt-4 mb-5">Cadastrar</button>
+        <div class="text-center my-5" id="div-span">
+            <span>Ao clicar em "Cadastrar" você estará aceitando os <a href="http://" id="div-span">Termos de serviço</a></span><br>
+            <span>Já tem uma conta? <a href="" id="div-span">Login</a></span>
+        </div>
     </div>
 </body>
 </html>
