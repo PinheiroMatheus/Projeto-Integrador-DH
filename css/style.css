@@ -69,86 +69,11 @@ footer {
 }
 
 /* /CADASTRO */
-#img-carrousel {
-    width: inherit;
-}
-
-img#test {
-    vertical-align: middle;
-    border-style: none;
-    width: 250px;
-}
-
-#div-3-index2 {
-    background-color: #8a47dc;
-    color: white;
-}
-
-/* #img-planos {
-    width: 100px;
-}
-
-#index-planos1 {
-    background-color: white;
-    border-radius: 15px;
-    color: black;
-    max-width: 200px;
-}
-
-#index-planos2 {
-    background-color: white;
-    border-radius: 15px;
-    color: black;
-    margin-left: -400px;
-    margin-right: -400px;
-    margin-bottom: 20px;
-    margin-top: -20px;
-    max-width: 200px;
-}
-
-#index-planos3 {
-    background-color: white;
-    border-radius: 15px;
-    color: black;
-    max-width: 200px;
-} */
-
-#ul-planos {
-    list-style: none;
-    /* padding: 0px; */
-}
-#div-planos > div {
-    margin: 20px;
-    flex: 0 1 20%;
-    color: black;
-}
-#li-planos {
-    font-size: 12px;
-}
-
-#button-planos {
-    left: 17%;
-    right: 17%;
-}
-
-
-div#carrousel-depoimento .carousel-control-next {
-    right: 0;
-    background-color: #8a47dc;
-}
-
-div#carrousel-depoimento .carousel-control-prev {
-    right: 0;
-    background-color: #8a47dc;
-}
-
 /* --------------------------------------------------------------------------------------- */
 /* CONTATO */
 
 
 /* --------------------------------------------------------------------------------------- */
-
-
 * {
     font-family: sans-serif;
 }
@@ -159,7 +84,6 @@ body {
 
 
 p, li, ul, a {
-    /* font-family: cursive; */
     font-size: 14px;
 }
 
