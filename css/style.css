@@ -13,12 +13,12 @@ footer {
 }
 
 #row1 {
-    background-color: #461b79;
+    background-color: #8a47dc;
     position: relative;
 }
 
 #row2 {
-    background-color: #61197e;
+    background-color: #6d32b2;
 }
 
 #a-footer { 
@@ -28,7 +28,7 @@ footer {
 #a-footer:visited {
      color: white;
 }
-/* FOOTER */
+/* --------------------------------------------------------------------------------------- */
 /* /LOGIN */
 #body-login2 {
     background-color: #461b79;
@@ -46,7 +46,7 @@ footer {
 #div-titulo-login {
     white-space: nowrap;
 }
-/* /LOGIN */
+/* --------------------------------------------------------------------------------------- */
 /* CADASTRO */
 #body-cadastro {
     background-color: #461b79;
@@ -69,6 +69,81 @@ footer {
 }
 
 /* /CADASTRO */
+#img-carrousel {
+    width: inherit;
+}
+
+img#test {
+    vertical-align: middle;
+    border-style: none;
+    width: 250px;
+}
+
+#div-3-index2 {
+    background-color: #8a47dc;
+    color: white;
+}
+
+#img-planos {
+    width: 100px;
+}
+
+#index-planos1 {
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    max-width: 200px;
+}
+
+#index-planos2 {
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    margin-left: -400px;
+    margin-right: -400px;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    max-width: 200px;
+}
+
+#index-planos3 {
+    background-color: white;
+    border-radius: 15px;
+    color: black;
+    max-width: 200px;
+}
+
+#ul-planos {
+    list-style: none;
+    padding: 0px;
+}
+
+#li-planos {
+    font-size: 12px;
+}
+
+#button-planos {
+    margin-bottom: -50px;
+}
+
+
+div#carrousel-depoimento .carousel-control-next {
+    right: 0;
+    background-color: #8a47dc;
+}
+
+div#carrousel-depoimento .carousel-control-prev {
+    right: 0;
+    background-color: #8a47dc;
+}
+
+/* --------------------------------------------------------------------------------------- */
+/* CONTATO */
+
+
+/* --------------------------------------------------------------------------------------- */
+
+
 * {
     font-family: sans-serif;
 }
