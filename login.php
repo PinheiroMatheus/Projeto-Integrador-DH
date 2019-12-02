@@ -1,7 +1,7 @@
+<title>Login</title>
 <!DOCTYPE html>
 <html lang="en">
     <?php require_once("inc/head.php") ?>
-    <title>Login</title>
 </head>
 <body id="body-login2">
     <div class="container px-5" id="div-master-login">

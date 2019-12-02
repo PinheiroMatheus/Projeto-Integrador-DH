@@ -1,9 +1,9 @@
+<?php $title = "Produtos"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
         <?php require_once("inc/head.php") ?>
 
-        <?php $title = "Produtos"; ?>
 
 <body>
 

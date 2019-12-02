@@ -1,7 +1,7 @@
+<title>Cadastro</title>
 <!DOCTYPE html>
 <html lang="en">
         <?php require_once("inc/head.php") ?> 
-        <title>Cadastro</title>
 <body id="body-cadastro">
     <div class="container px-5" id="div-master-cadastro">
         <div class="text-center my-5 pt-5" id="div-img">
