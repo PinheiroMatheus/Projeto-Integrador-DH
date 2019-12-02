@@ -156,6 +156,7 @@ body {
 p, li, ul, a {
     /* font-family: cursive; */
     font-size: 14px;
+    
 }
 
 .banner {
@@ -182,7 +183,16 @@ p, li, ul, a {
 
 }
 
-/* HOME*/
-.carousel-inner img {
-    width: 10%;     
+.product {
+    background-color: #471b7a;
 }
+
+.text {
+    color: #fff!important;
+}
+
+h1 {
+    color: #f7f7f7;
+    font-weight: 600;
+}
+>>>>>>> 0db3aacc75518c294240a2f2766efd27924b7961
