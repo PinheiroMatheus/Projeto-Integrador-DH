@@ -181,3 +181,8 @@ p, li, ul, a {
     margin-left: 15px;
 
 }
+
+/* HOME*/
+.carousel-inner img {
+    width: 10%;     
+}
