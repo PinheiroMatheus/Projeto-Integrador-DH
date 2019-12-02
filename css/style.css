@@ -1,4 +1,4 @@
-/* FOOTER */
+    /* FOOTER */
 footer {
     color: white;
 }
@@ -84,7 +84,7 @@ img#test {
     color: white;
 }
 
-#img-planos {
+/* #img-planos {
     width: 100px;
 }
 
@@ -111,19 +111,24 @@ img#test {
     border-radius: 15px;
     color: black;
     max-width: 200px;
-}
+} */
 
 #ul-planos {
     list-style: none;
-    padding: 0px;
+    /* padding: 0px; */
 }
-
+#div-planos > div {
+    margin: 20px;
+    flex: 0 1 20%;
+    color: black;
+}
 #li-planos {
     font-size: 12px;
 }
 
 #button-planos {
-    margin-bottom: -50px;
+    left: 17%;
+    right: 17%;
 }
 
 
