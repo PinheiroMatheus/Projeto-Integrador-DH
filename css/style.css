@@ -81,6 +81,7 @@ body {
 p, li, ul, a {
     /* font-family: cursive; */
     font-size: 14px;
+    
 }
 
 .banner {
@@ -105,4 +106,17 @@ p, li, ul, a {
     margin-top: -90px;
     margin-left: 15px;
 
+}
+
+.product {
+    background-color: #471b7a;
+}
+
+.text {
+    color: #fff!important;
+}
+
+h1 {
+    color: #f7f7f7;
+    font-weight: 600;
 }
