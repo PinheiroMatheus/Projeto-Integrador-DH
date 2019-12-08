@@ -23,7 +23,7 @@
         <div class="px-3">
         <button type="button" class="btn btn-primary btn-md btn-block mt-4">Login</button>
         <a href="http://localhost/BeyMind/index.php" class="btn btn-primary btn-md btn-block mt-3 mb-5" role="button" aria-disabled="true">Voltar ao Menu</a>
-            <div class="text-center my-5 px-5" id="div-span">
+            <div class="text-center my-5" id="div-span">
                 <span>Ainda não tem cadastro? Tente <a href="http://localhost/BeyMind/cadastro.php" id="div-span">Cadastrar-se</a></span><br>
                 <span>Esqueceu sua senha? <a href="" data-toggle="modal" data-target="#exampleModal" id="div-span">Clique aqui</a></span>
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
