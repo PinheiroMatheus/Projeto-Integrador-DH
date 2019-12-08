@@ -37,7 +37,7 @@ footer {
 #div-master-login {
     border: 2px solid black;
     background-color: white;
-    max-width: 600px;
+    max-width: 500px;
     min-width: 360px;
     border-radius: 15px;
     width: 100%;
@@ -56,7 +56,7 @@ footer {
 #div-master-cadastro {
     border: 2px solid black;
     background-color: white;
-    max-width: 600px;
+    max-width: 500px;
     min-width: 360px;
     border-radius: 15px;
 }
@@ -72,7 +72,9 @@ footer {
 /* /CADASTRO */
 /* --------------------------------------------------------------------------------------- */
 /* CONTATO */
-
+#ul-contato {
+    list-style: none;
+}
 
 /* --------------------------------------------------------------------------------------- */
 * {

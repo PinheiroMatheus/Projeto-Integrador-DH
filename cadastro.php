@@ -3,7 +3,7 @@
 <html lang="en">
         <?php require_once("inc/head.php") ?> 
 <body id="body-cadastro">
-    <div class="container px-5 my-5" id="div-master-cadastro">
+    <div class="container my-5 px-5" id="div-master-cadastro">
         <div class="text-center my-5 pt-5" id="div-img">
             <img  class="" src="" alt="Logo">
         </div>
@@ -12,30 +12,30 @@
         </div>
         <form>
             <div class="row mt-5">
-              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 pb-4">
-              <label for="exampleInputEmail1">Nome</label>
-                <input type="text" class="form-control" placeholder="">
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 pb-3">
+              <label for="exampleInputEmail1"></label>
+                <input type="text" class="form-control" placeholder="Nome">
               </div>
-              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 pb-4">
-              <label for="exampleInputEmail1">Sobrenome</label>
-                <input type="text" class="form-control" placeholder="">
+              <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 pb-3">
+              <label for="exampleInputEmail1"></label>
+                <input type="text" class="form-control" placeholder="Sobrenome">
               </div>
             </div>
             <div class="form-group">
-                <label for="exampleInputEmail1">Email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                <label for="exampleInputEmail1"></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
             </div>
             <div class="form-group">
-                <label for="exampleInputEmail1">CPF/CNPJ</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                <label for="exampleInputEmail1"></label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="CPF/CNPJ">
             </div>
-            <div class="form-group pt-3">
-                <label for="exampleInputPassword1">Senha</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+            <div class="form-group">
+                <label for="exampleInputPassword1"></label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
             </div>
-            <div class="form-group pt-3">
-                <label for="exampleInputPassword1">Confirmar senha</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+            <div class="form-group">
+                <label for="exampleInputPassword1"></label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirmar senha">
             </div>
         </form>
         <button type="button" class="btn btn-primary btn-md btn-block mt-5">Cadastrar</button>
@@ -72,7 +72,6 @@
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
                         </div>
                     </div>
                 </div>
