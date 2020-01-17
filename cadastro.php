@@ -10,35 +10,35 @@
         <div class="container text-center" id="div-titulo">
             <h1><b>Cadastre-se</b></h1>
         </div>
-        <form>
+        <form name="signup" method="post" action="cadastro_back.php">
             <div class="row mt-5">
               <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 pb-3">
               <label for="exampleInputEmail1"></label>
-                <input type="text" class="form-control" placeholder="Nome">
+                <input type="text" class="form-control" placeholder="Nome" name="Nome">
               </div>
               <div class="col-sm-6 col-md-6 col-lg-6 col-xs-12 pb-3">
               <label for="exampleInputEmail1"></label>
-                <input type="text" class="form-control" placeholder="Sobrenome">
+                <input type="text" class="form-control" placeholder="Sobrenome" name="Sobrenome">
               </div>
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail1"></label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" name="Email">
             </div>
             <div class="form-group">
                 <label for="exampleInputEmail1"></label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="CPF/CNPJ">
+                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="CPF_CNPJ" name="CPF_CNPJ">
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1"></label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" name="Senha">
             </div>
             <div class="form-group">
                 <label for="exampleInputPassword1"></label>
                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirmar senha">
             </div>
+                <input type="submit" class="btn btn-primary btn-md btn-block mt-5" value="Cadastrar">
         </form>
-        <button type="button" class="btn btn-primary btn-md btn-block mt-5">Cadastrar</button>
         <a href="http://localhost/BeyMind/index.php" class="btn btn-primary btn-md btn-block mt-3 mb-5" role="button" aria-disabled="true">Voltar ao Menu</a>
         <div class="text-center my-5" id="div-span">
             <!-- <span>Ao clicar em "Cadastrar" você estará aceitando os <a href="http://" id="div-span">Termos de serviço</a></span><br> -->
@@ -79,6 +79,8 @@
             <span class="text-center">Já tem uma conta? <a href="http://localhost/BeyMind/login.php" id="div-span">Login</a></span>
         </div>
     </div>
+
+    
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
