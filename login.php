@@ -4,16 +4,16 @@
     <?php require_once("inc/head.php") ?>
 </head>
 <body id="body-login2">
-    <div class="container px-5 my-5" id="div-master-login">
-        <div class="text-center my-5 pt-5" id="div-img-login">
-            <img  class="" src="" alt="Logo">
+    <div class="container px-2 my-5" id="div-master-login">
+        <div class="text-center my-5" id="div-img-login">
+            <img  class="" width="250" src="assets\img\1x\icon-4.png" alt="Logo">
         </div>
-        <form class="pt-5 px-3">
-        <div class="form-group">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+        <form class="px-3" method="POST" action="login_back.php">
+            <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email" name="email">
             </div>
             <div class="form-group">
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha" name="senha">
             </div>
         </form>
         <div class="form-check form-check-inline px-3">
@@ -21,9 +21,9 @@
           <label class="form-check-label" for="inlineCheckbox1">Lembrar</label>
         </div>
         <div class="px-3">
-        <button type="button" class="btn btn-primary btn-md btn-block mt-4">Login</button>
-        <a href="http://localhost/BeyMind/index.php" class="btn btn-primary btn-md btn-block mt-3 mb-5" role="button" aria-disabled="true">Voltar ao Menu</a>
-            <div class="text-center my-5" id="div-span">
+            <input type="submit" class="btn btn-primary btn-md btn-block mt-4" value="Login">
+            <a href="http://localhost/BeyMind/index.php" class="btn btn-primary btn-md btn-block mt-3" role="button" aria-disabled="true">Voltar ao Menu</a>
+            <div class="text-center my-4" id="div-span">
                 <span>Ainda não tem cadastro? Tente <a href="http://localhost/BeyMind/cadastro.php" id="div-span">Cadastrar-se</a></span><br>
                 <span>Esqueceu sua senha? <a href="" data-toggle="modal" data-target="#exampleModal" id="div-span">Clique aqui</a></span>
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -51,8 +51,8 @@
                     </div>
                 </div>
             </div>
-    </div>
         </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
