@@ -1,4 +1,13 @@
-    /* FOOTER */
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+    font-family: sans-serif;
+}
+
+
+/* FOOTER */
 footer {
     color: white;
 }
@@ -74,9 +83,6 @@ footer {
 /* CONTATO */
 
 /* --------------------------------------------------------------------------------------- */
-* {
-    font-family: sans-serif;
-}
 
 body {
     background-color: #f7f7f7;
@@ -119,7 +125,71 @@ p, li, ul, a {
 .text {
     color: #fff!important;
 }
-
-h1 {
+#div-titulo h1 {
     font-weight: 600;
 }
+
+/* index */
+.index{
+    background-color: #471b7a;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: flex-start;    
+    align-items: center;
+    padding-left: 30px;
+}
+
+.index h1,p{
+color: white;
+
+}
+.index h1{
+font-size: 70px ;
+
+}
+.index2{
+    background-color: white;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;    
+    align-items: center;
+    padding-left: 30px;
+}
+.index2 h1,p{
+    color:black;
+}
+.index2 h2{
+    font-size: 50px ;
+    
+    }
+.index3{
+    background-color: #471b7a;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;    
+    align-items: center;
+    }
+.btn-primary{
+    background-color: #3d057e;
+    
+}
+.index4{
+    background-color:white;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;    
+    align-items: top;
+    padding-left: 30px;
+}
+.index4 h2{
+    font-size: 50px ;
+    
+    }

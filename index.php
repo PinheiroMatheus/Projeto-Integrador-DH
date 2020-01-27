@@ -1,66 +1,78 @@
+<title>BeyMind</title>
 <!DOCTYPE html>
 <html lang="pt">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-        <title>BeyMind</title>
+        
+    <?php include_once("inc/head.php"); ?>
+        
     </head> 
     <body>
 
     <header>
         <?php include_once("inc/header.php"); ?>
     </header>
+    <main>
+    
+<div class="index">
+        <div class="col-sm container pt-5 pb-5">
 
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-md-block w-100" src="assets/img/imgcrs.jpg" alt="Primeiro Slide">
-            </div>
+            <img src="assets/img/download.jpg" class="mx-auto d-block img-fluid "alt="minha imagem" width="60%">
+
+        </div>    
+        <div class="col-sm container">
+            <h1>Manage your workflow</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero atque, quam eveniet temporibus dignissimos dicta velit facere magni? Consequatur neque, earum magnam saepe sit fuga incidunt inventore repellendus ex suscipit?</p>
+       
         </div>
+    
+</div>
+    <div class="index2">
+        <div class="col-sm container pt-5 pb-5">
+
+            <img src="assets/img/download2.jpg" class="mx-auto d-block img-fluid "alt="minha imagem" width="60%">
+        
+        </div>    
+        <div class="col-sm container">
+         <h2>Lorem ipsum</h2>
+         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero atque, quam eveniet temporibus dignissimos dicta velit facere magni? Consequatur neque, earum magnam saepe sit fuga incidunt inventore repellendus ex suscipit?</p>
+       
+         </div>
     </div>
 
-    <section class="row" id="sobre">
-		<article class="col-12 my-5 d-flex flex-column justify-content-center align-items-center">
-			<h2>Entenda mais sobre nossos serviços e escolha o que mais se adapta a necessidade da sua empresa.</h2>
-		</article>
-	</section>
-
-    <div class="card-deck">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Produto 1</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="card-link">Escolher</a>
-             </div>
+<div class="index3">
+<div class="card" style="width: 18rem;">
+  <img src="assets/img/product.png" class="card-img-top" alt="meu produto">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button href="#" class="btn btn-primary center">Go somewhere</button>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="assets/img/product.png" class="card-img-top" alt="meu produto2">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button href="#" class="btn btn-primary">Go somewhere</button>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="assets/img/product.png" class="card-img-top" alt="meu produto3">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <button href="#" class="btn btn-primary">Go somewhere</button>
+  </div>
+</div>
+</div>
+<div class="index4">
+        <div class="col-sm container">
+         <h2>Depoimentos</h2>
         </div>
-    <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Produto 2</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="card-link">Escolher</a>
-            </div>
-    </div>
-    <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">Produto 3</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="card-link">Escolher</a>
-            </div>
-    </div>
-    </div>
+   
+</div>
 
-    <section class="depoimento" id="id_depoimento">
-        <div class="depoimento-header">
-            <h2>                        </h2>
-
-        </div>
-    </section>
-
-    </body>
+       </body>
         <footer>
             <?php include_once("inc/footer.php"); ?>
         </footer>
