@@ -109,7 +109,15 @@ p, li, ul, a {
     margin-top: -90px;
 }
 
+.checkout{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
 .promo-code {
+    position: sticky;
+    top: 0;
     background-color: #fff;
     padding: 30px;
     border-radius: 15px;
