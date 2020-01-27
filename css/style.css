@@ -115,6 +115,16 @@ p, li, ul, a {
     align-items: flex-start;
 }
 
+@media screen and (max-width: 1200px) {
+    .promo-code {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 50px;
+    }
+    }
+
+@media screen and (min-width: 1200px) {
 .promo-code {
     position: sticky;
     top: 0;
@@ -122,8 +132,7 @@ p, li, ul, a {
     padding: 30px;
     border-radius: 15px;
     margin-top: -90px;
-    margin-left: 15px;
-
+    
 }
 
 .product {
