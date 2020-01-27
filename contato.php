@@ -11,8 +11,8 @@
     <?php require_once("inc/header.php") ?>
     
     <div class="conatiner px-5" id="cont-master">
-        <div class="row text-center mt-5" id="div-titulo">
-            <h1><b>Contate-nos</b></h1>
+        <div class="row mt-5" id="div-titulo">
+            <h1 class="col-12 text-center"><b>Contate-nos</b></h1>
         </div>
         <div class="row">
             <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-5">

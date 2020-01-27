@@ -1,6 +1,7 @@
 <!DOCTYPE>
 <html lang="en">
 <!-- head -->
+<?php $title = "Checkout"; ?>
 <?php include_once("inc/head.php"); ?>
 <!-- head -->
 <body>
@@ -12,11 +13,11 @@
             <h1 class="py-4">Finalize o pagamento</h1>
             </center>
     </div>
-    <main class="container py-5">
+   
         
-        <div class = "row"  >
+        <div class = "container checkout "  >
             <!-- desc dos produtos  -->
-            <div class="col-md-4 order-md-2 mb-4 promo-code">
+            <div class="order-2 promo-code">
                 <h4 class="d-flex bd-highligh mb-3">
                     <span class="text-muted p-2 bd-highlight">Carrinho</span>
                     <i class="fa fa-shopping-cart p-2 bd-highlight" aria-hidden="true"></i>
@@ -43,7 +44,7 @@
                 </form>
             </div>
             <!-- dados cadastrais -->
-            <div class="col-md-7 order-md-1 info-checkout">
+            <div class="order-1 info-checkout">
                 <h4 class="mb-3">Endereço de Cobrança</h4>
                 <form class="needs-validation" novalidate>
                     <div class="row">
@@ -148,14 +149,14 @@
                     <div class="d-block my-3">
                         <div class="custom-control custom-radio">
                             <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
-                            <label class="custom-control-label" for="credit">Cartão de Credit</label>
+                            <label class="custom-control-label" for="credit">Cartão de Credito</label>
                             <i class="fa fa-cc-amex" aria-hidden="true"></i>
                             <i class="fa fa-cc-visa" aria-hidden="true"></i>
                             <i class="fa fa-cc-mastercard" aria-hidden="true"></i>
                         </div>
                         <div class="custom-control custom-radio">
                             <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
-                            <label class="custom-control-label" for="debit">Cartão de Debit</label>
+                            <label class="custom-control-label" for="debit">Cartão de Debito</label>
                             <i class="fa fa-cc-visa" aria-hidden="true"></i>
                         </div>
                         <div class="custom-control custom-radio">
@@ -206,7 +207,7 @@
                 </div> VERIFICAR SE HÁ NECESSIDADE DESSES 2 FECHAMENTOS DE DIV-->
             </div>
         </div>
-    </main>
+   
     <!-- footer -->
         <?php include_once("inc/footer.php"); ?>
     <!-- footer -->
