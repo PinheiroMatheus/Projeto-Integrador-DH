@@ -168,7 +168,7 @@ font-size: 70px ;
 }
 .index2{
     background-color: white;
-    min-height: 70vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -185,17 +185,26 @@ font-size: 70px ;
     }
 .index3{
     background-color: #471b7a;
-    min-height: 70vh;
-    display: flex;
-    flex-direction: row;
+    min-height: 90vh;
+   
+        }
+
+#meucard{
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-around;    
-    align-items: center;
-    }
-.btn-primary{
-    background-color: #3d057e;
+    
     
 }
+
+.card-img-top{
+ width: 200px;
+ align-self: center;
+}
+
+
+.btn-primary{
+    background-color: #3d057e;
+   }
 .index4{
     background-color:white;
     min-height: 70vh;

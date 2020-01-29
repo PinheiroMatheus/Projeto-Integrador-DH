@@ -13,7 +13,7 @@
     </header>
     <main>
     
-<div class="index">
+<div class="index col container">
         <div class="col-sm container pt-5 pb-5">
 
             <img src="assets/img/download.jpg" class="mx-auto d-block img-fluid "alt="minha imagem" width="60%">
@@ -26,7 +26,7 @@
         </div>
     
 </div>
-    <div class="index2">
+    <div class="index2 col container">
         <div class="col-sm container pt-5 pb-5">
 
             <img src="assets/img/download2.jpg" class="mx-auto d-block img-fluid "alt="minha imagem" width="60%">
@@ -37,35 +37,62 @@
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero atque, quam eveniet temporibus dignissimos dicta velit facere magni? Consequatur neque, earum magnam saepe sit fuga incidunt inventore repellendus ex suscipit?</p>
        
          </div>
-    </div>
+</div>
 
-<div class="index3">
-<div class="card" style="width: 18rem;">
-  <img src="assets/img/product.png" class="card-img-top" alt="meu produto">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button href="#" class="btn btn-primary center">Go somewhere</button>
-  </div>
+  
+<div class="index3 pt-5 col container">
+    <div class="row-lg-12 text-center">
+      <h1><b class="title">Plano</b></h1>
+      <h3>Escolha um plano abaixo para sua empresa</h3>
+    </div>
+    
+    
+    <div class="row pb-5 mt-5" id="meucard">
+                  <div class="card mr-2 mt-3" style="width: 18rem;">
+                    <img src="assets/img/product.png" class="card-img-top"  alt="...">
+                    <div class="card-body text-center">
+                    <h2><b class="title">R$ 000,00</b></h2>
+                      <p class="card-text p-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button"  class="btn btn-primary btn-lg">Contratar Agora!</button>
+                  </div>
+                </div>
+                
+                
+                  <div class="card mr-2 ml-2 mb-3" style="width: 18rem;">
+                  <img src="assets/img/product.png" class="card-img-top"  alt="...">
+                    <div class="card-body text-center">
+                    <h2><b class="title">R$ 000,00</b></h2>
+                      <p class="card-text p-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button"  class="btn btn-primary btn-lg">Contratar Agora!</button>
+                  </div>
+                </div>
+                
+                
+                  <div class="card ml-2 mt-3" style="width: 18rem;">
+                    <img src="assets/img/product.png" class="card-img-top"  alt="...">
+                    <div class="card-body text-center">
+                    <h2><b class="title">R$ 000,00</b></h2>
+                      <p class="card-text p-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <button type="button "  class="btn btn-primary btn-lg">Contratar Agora!</button>
+                  </div>
+                </div>
+               
+      </div>
+    
 </div>
-<div class="card" style="width: 18rem;">
-  <img src="assets/img/product.png" class="card-img-top" alt="meu produto2">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button href="#" class="btn btn-primary">Go somewhere</button>
-  </div>
-</div>
-<div class="card" style="width: 18rem;">
-  <img src="assets/img/product.png" class="card-img-top" alt="meu produto3">
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <button href="#" class="btn btn-primary">Go somewhere</button>
-  </div>
-</div>
-</div>
-<div class="index4">
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="index4 pt-5 col container">
         <div class="col-sm container">
          <h2>Depoimentos</h2>
         </div>
