@@ -81,21 +81,9 @@
     
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
 <div class="index4 pt-5 col container">
-        <div class="col-sm container">
-         <h2>Depoimentos</h2>
-        </div>
+        <h2>Depoimentos</h2>
+        
    
 </div>
 
